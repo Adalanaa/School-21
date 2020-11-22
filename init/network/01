@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/01/26 17:15:34 by kplums            #+#    #+#              #
+#    Updated: 2020/01/26 17:15:36 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Get the list of the network interfaces of the machine without displaying any
+detail for these interfaces. Only the list of names. #
+
+# Poluchit' spisok setevykh interfeysov mashiny bez otobrazheniya kakikh-libo
+podrobnostey dlya etikh interfeysov. Tol'ko spisok imen. #
+
+ifconfig -l

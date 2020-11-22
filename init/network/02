@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 12:54:53 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 12:54:55 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Identify and display the Ethernet interface characteristics:
+ (a) Identify broadcast address
+ (b) Identify all IP adresses which are part of the same subnet #
+
+# Opredelite i otobrazite kharakteristiki interfeysa Ethernet:
+(a) Opredelit' shirokoveshchatel'nyy adres
+(b) Opredelite vse IP-adresa, kotoryye yavlyayutsya chast'yu odnoy podseti#
+
+(a) ifconfig | grep broadcast | awk '{ print $6 }'
+
+(b) arp -a

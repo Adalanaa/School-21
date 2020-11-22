@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    04                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 13:48:43 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 13:48:45 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Identifiy the default gateway in the routing table #
+
+# Opredelite shlyuz po umolchaniyu v tablitse marshrutizatsii #
+
+netstat -rn | grep 'default.*en0' | awk '{print $2}'

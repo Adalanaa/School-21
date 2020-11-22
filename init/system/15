@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    15                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/24 12:02:38 by kplums            #+#    #+#              #
+#    Updated: 2020/02/24 12:02:40 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Find the command that kills the background command’s process #
+
+# Naydite komandu, kotoraya ubivayet protsess fonovoy komandy #
+
+kill $(pidof <process>)

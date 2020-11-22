@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kplums/school/practika/exam/5_print_memory/main.c
+unistd.h
+-
+
+/Users/kplums/school/practika/exam/5_print_memory/print_memory.c
+unistd.h
+-
+stdio.h
+-
+

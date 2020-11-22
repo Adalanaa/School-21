@@ -1,0 +1,3 @@
+/Users/kplums/school/practika/exam/5_biggest_pal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kplums/school/practika/exam/5_biggest_pal/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kplums/school/practika/exam/5_biggest_pal/cmake-build-debug/CMakeFiles/5_biggest_pal.dir

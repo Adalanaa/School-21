@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    13                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 16:16:32 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 16:16:34 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Thanks to the previous question and the reverse DNS find the name
+of your host #
+
+# Blagodarya predydushchemu voprosu i obratnomu DNS naydite imya vashego
+khosta #
+
+# host $(ifconfig en0 | grep 'inet ' | awk '{print $2}') | awk '{print $5}' #
+
+mi-g2.21-school.ru.
+
+

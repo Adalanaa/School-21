@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kplums/school/gnl/get_next_line.c
+get_next_line.h
+/Users/kplums/school/gnl/get_next_line.h
+
+/Users/kplums/school/gnl/get_next_line.h
+libft/libft.h
+/Users/kplums/school/gnl/libft/libft.h
+fcntl.h
+-
+
+/Users/kplums/school/gnl/libft/libft.h
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+
+/Users/kplums/school/gnl/main.c
+get_next_line.h
+/Users/kplums/school/gnl/get_next_line.h
+stdio.h
+-
+string.h
+-
+

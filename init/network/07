@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    07                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 14:44:45 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 14:44:47 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Query an external DNS server on the slash16.org domain name (ie. : google
+  8.8.8.8) #
+
+# Zaprosit' vneshniy DNS-server po domennomu imeni slash16.org (naprimer: google
+  8.8.8.8) #
+
+nslookup slash16.org 8.8.8.8

@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    12                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 16:10:32 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 16:10:35 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Find the IP that was assigned to you by dhcp server #
+
+# Naydite IP-adres, naznachennyy vam serverom DHCP #
+
+ifconfig en0 | grep 'inet ' | awk '{print $2}'

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kplums/school/piscine_reloaded/ex27/ft_putchar.c
+unistd.h
+-
+
+/Users/kplums/school/piscine_reloaded/ex27/ft_putchar2.c
+unistd.h
+-
+
+/Users/kplums/school/piscine_reloaded/ex27/ft_putstr2.c
+

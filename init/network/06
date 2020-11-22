@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    06                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 14:34:34 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 14:34:35 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# a deduction, written in your own words #
+
+# Get the complete path of the file that contains the IP address of the DNS server
+  you’re using #
+
+# Poluchite polnyy put' k faylu, kotoryy soderzhit IP-adres ispol'zuyemogo
+vami DNS-servera. #
+
+# man nslookup #
+
+/etc/resolv.conf

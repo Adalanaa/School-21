@@ -1,0 +1,31 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    16                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/24 12:16:16 by kplums            #+#    #+#              #
+#    Updated: 2020/02/24 12:16:17 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Find the service which makes it possible to run specific tasks following a regular
+schedule #
+
+# Naydite servis, kotoryy pozvolyayet zapuskat' opredelennyye zadachi po
+regulyarnomu raspisaniyu #
+
+# системный сервис cron. Это планировщик, который позволяет выполнять нужные
+скрипты раз в час, раз в день, неделю или месяц, а также в любое заданное
+время или через любой интервал. #
+
+crontab -e
+
+
+
+
+
+
+
+

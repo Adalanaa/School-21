@@ -1,0 +1,12 @@
+# !/bin/bash
+USER=$1
+if who | getent passwd $USER
+then
+sudo passwd --lock $USER
+while
+pgrep -u $USER | while read PID ; do sudo kill $PID
+sudo deluser -f --remove-home $USER
+sudo deluser --remove-all-files $USER
+else
+echo "Please enter correct username"
+fi

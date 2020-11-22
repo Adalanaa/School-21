@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Werror -Wall -Wextra -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/5_cycle_detector.dir/main.c.o CMakeFiles/5_cycle_detector.dir/cycle_detector.c.o  -o 5_cycle_detector 

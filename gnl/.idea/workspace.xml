@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="gnl" targetName="gnl" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5f59b92-e2c9-42ac-875c-1dd4208e0d43" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1RTGhZp9YNyxoInqm2suTLETQKt" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/CMake" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/libft" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="gnl" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gnl" TARGET_NAME="gnl" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gnl" RUN_TARGET_NAME="gnl">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5f59b92-e2c9-42ac-875c-1dd4208e0d43" name="Default Changelist" comment="" />
+      <created>1569683791490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569683791490</updated>
+      <workItem from="1569683792771" duration="3504000" />
+      <workItem from="1570175727991" duration="16887000" />
+      <workItem from="1570356221812" duration="472000" />
+      <workItem from="1570358931499" duration="36000" />
+      <workItem from="1570620247309" duration="7000" />
+      <workItem from="1570620260050" duration="2000" />
+      <workItem from="1570620284804" duration="52000" />
+      <workItem from="1570620340993" duration="25000" />
+      <workItem from="1570634089895" duration="6562000" />
+      <workItem from="1571387173320" duration="2504000" />
+      <workItem from="1571415717922" duration="47000" />
+      <workItem from="1572179863128" duration="4663000" />
+      <workItem from="1572185793844" duration="7562000" />
+      <workItem from="1572606551137" duration="567000" />
+      <workItem from="1572614379021" duration="2785000" />
+      <workItem from="1572623735854" duration="3961000" />
+      <workItem from="1572871588906" duration="125000" />
+      <workItem from="1572875447924" duration="10819000" />
+      <workItem from="1573384230554" duration="594000" />
+      <workItem from="1573386385679" duration="20363000" />
+      <workItem from="1573643587845" duration="10580000" />
+      <workItem from="1573654998655" duration="5191000" />
+      <workItem from="1574253582229" duration="1821000" />
+      <workItem from="1574257001092" duration="2175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="head" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

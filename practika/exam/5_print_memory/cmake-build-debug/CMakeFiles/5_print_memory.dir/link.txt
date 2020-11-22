@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -Wall -Werror -Wextra -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/5_print_memory.dir/print_memory.c.o CMakeFiles/5_print_memory.dir/main.c.o  -o 5_print_memory 

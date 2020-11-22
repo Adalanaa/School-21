@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kplums/sudoku/ft.c
+ft.h
+/Users/kplums/sudoku/ft.h
+
+/Users/kplums/sudoku/ft.h
+unistd.h
+-
+
+/Users/kplums/sudoku/main.c
+ft.h
+/Users/kplums/sudoku/ft.h
+sdk.h
+/Users/kplums/sudoku/sdk.h
+
+/Users/kplums/sudoku/sdk.h
+stdlib.h
+-
+
+/Users/kplums/sudoku/sdk_accessory.c
+sdk.h
+/Users/kplums/sudoku/sdk.h
+ft.h
+/Users/kplums/sudoku/ft.h
+
+/Users/kplums/sudoku/sdk_solver.c
+sdk.h
+/Users/kplums/sudoku/sdk.h
+ft.h
+/Users/kplums/sudoku/ft.h
+

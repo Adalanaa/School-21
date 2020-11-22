@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    05                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 19:33:07 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 19:33:08 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Name the command that determines the state of the SSH service. #
+
+# Nazovite komandu, kotoraya opredelyayet sostoyaniye sluzhby SSH. #
+
+systemctl status ssh

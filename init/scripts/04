@@ -1,0 +1,12 @@
+# !bin/bash
+
+#ssh $1@192.168.56.2
+cd
+cd school
+cp -r $1 /Users/kplums/mygit
+cd
+cd mygit
+git add --all
+date=$(date +%d%B%C%t%X)
+git commit -m "$date"
+git push

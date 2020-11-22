@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kplums/school/practika/C/head.h
+stdio.h
+-
+
+/Users/kplums/school/practika/C/main.c
+head.h
+/Users/kplums/school/practika/C/head.h
+

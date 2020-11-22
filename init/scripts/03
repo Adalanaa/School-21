@@ -1,0 +1,14 @@
+# !bin/bash
+
+#ssh $1@192.168.56.2
+cd
+cd school
+cp -r init /Users/kplums/mygit
+cd
+cd mygit
+git add --all
+date=date | awk '{print$3.$2.$6}'
+time=date | awk '{print $4}'
+dt="$data_$time"
+git commit -m $dt>
+git push

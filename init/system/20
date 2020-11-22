@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    20                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/24 14:09:00 by kplums            #+#    #+#              #
+#    Updated: 2020/02/24 14:09:01 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# List all existing users on the VM #
+
+# Spisok vsekh sushchestvuyushchikh pol'zovateley na virtual'noy mashine #
+
+awk -F: '{print $1}' /etc/passwd

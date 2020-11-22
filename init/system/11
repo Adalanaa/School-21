@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 22:43:23 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 22:43:24 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Name the command that displays the available space left and used on the system
+  in an humanly understandable way #
+
+# Nazovite komandu, kotoraya otobrazhayet dostupnoye ostavsheyesya prostranstvo
+i ispol'zuyetsya v sisteme ponyatnym dlya cheloveka sposobom #
+
+df -h

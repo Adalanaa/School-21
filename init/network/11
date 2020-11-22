@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 15:59:17 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 15:59:19 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Use the output of the previous command to find the name and IP address of the
+  device that makes the link between you (local network) and the outside world #
+
+# Ispol'zuyte vykhodnyye dannyye predydushchey komandy, chtoby nayti imya i
+IP-adres ustroystva, kotoroye ustanavlivayet svyaz' mezhdu vami
+(lokal'noy set'yu) i vneshnim mirom. #
+
+192.168.2.9

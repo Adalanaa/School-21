@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 18:55:24 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 18:55:28 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# What file has to be modified to make it permanent? #
+
+# Kakoy fayl nuzhno izmenit', chtoby sdelat' yego postoyannym?#
+
+/etc/hostname

@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 21:32:00 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 21:32:01 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# What file contains the RSA keys of systems that are authorized
+to connect via SSH? #
+
+# Kakoy fayl soderzhit klyuchi RSA sistem, kotorym razresheno podklyuchat'sya
+cherez SSH? #
+
+~/.ssh/authorized_keys

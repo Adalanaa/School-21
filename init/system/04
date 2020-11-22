@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    04                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 18:59:35 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 18:59:37 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# What command gives you the time since your system was last booted? #
+
+# Kakaya komanda dayet vam vremya s momenta posledney zagruzki vashey sistemy? #
+
+uptime

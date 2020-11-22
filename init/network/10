@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    10                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 15:53:58 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 15:54:00 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Identify the network devices between your computer and
+the slash16.org domain #
+
+# Opredelite setevyye ustroystva mezhdu vashim komp'yuterom
+i domenom slash16.org #
+
+traceroute slash16.org

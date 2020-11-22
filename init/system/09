@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    09                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 22:02:10 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 22:02:12 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# What command lets you know who is connected to the System? #
+
+# Kakaya komanda pozvolyayet uznat', kto podklyuchen k Sisteme? #
+
+w

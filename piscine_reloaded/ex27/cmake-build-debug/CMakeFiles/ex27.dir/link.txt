@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ex27.dir/main_ft_display_file.c.o CMakeFiles/ex27.dir/ft_putchar2.c.o CMakeFiles/ex27.dir/ft_putstr2.c.o CMakeFiles/ex27.dir/ft_putchar.c.o  -o ex27 

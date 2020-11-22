@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    14                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/23 23:09:21 by kplums            #+#    #+#              #
+#    Updated: 2020/02/23 23:09:22 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Run the ‘tail -f /var/log/syslog‘ command in background #
+
+# Zapustite komandu «tail -f / var / log / syslog» v fonovom rezhime #
+
+tail -f /var/log/syslog &

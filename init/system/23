@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    23                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kplums <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/24 14:32:13 by kplums            #+#    #+#              #
+#    Updated: 2020/02/24 14:32:14 by kplums           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Explain how connect yourself as new user.
+(With graphic session and ssh session) #
+
+# Ob"yasnite, kak podklyuchit' sebya kak novogo pol'zovatelya.
+(S graficheskoy sessiyey i sessiyey SSH) #
+
+graphic session : login > password
+ssh session     : login@ip > password
