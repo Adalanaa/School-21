@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ft_printf"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_printf">
+				<Option output="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/ft_printf.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/libft/includes"/>
+					<Add directory="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_printf/fast">
+				<Option output="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/ft_printf.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/libft/includes"/>
+					<Add directory="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/includes/func_printf.h">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/main.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/src/a_ft_printf.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/src/b_parser.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/src/c_doit.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/src/d_buff_write.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/src/doit_c.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/src/doit_di.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/src/doit_f.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/src/doit_lf.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/src/doit_ouxx_1.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/src/doit_ouxx_2.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/src/doit_p.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/src/doit_persent.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/src/doit_s.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Natalia/CLionProjects/School/ft_printf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
