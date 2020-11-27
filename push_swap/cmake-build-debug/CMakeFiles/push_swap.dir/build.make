@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kplums/CLionProjects/School/push_swap
+CMAKE_SOURCE_DIR = /Users/kplums/CLionProjects/School-21/push_swap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kplums/CLionProjects/School/push_swap/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/push_swap.dir/depend.make
@@ -79,185 +79,185 @@ include CMakeFiles/push_swap.dir/flags.make
 
 CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.o: ../src/push_swap/algoritm_3_5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/push_swap/algoritm_3_5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/algoritm_3_5.c
 
 CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/push_swap/algoritm_3_5.c > CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/algoritm_3_5.c > CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.i
 
 CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/push_swap/algoritm_3_5.c -o CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/algoritm_3_5.c -o CMakeFiles/push_swap.dir/src/push_swap/algoritm_3_5.c.s
 
 CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.o: ../src/push_swap/algoritm_12.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/push_swap/algoritm_12.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/algoritm_12.c
 
 CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/push_swap/algoritm_12.c > CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/algoritm_12.c > CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.i
 
 CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/push_swap/algoritm_12.c -o CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/algoritm_12.c -o CMakeFiles/push_swap.dir/src/push_swap/algoritm_12.c.s
 
 CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.o: ../src/push_swap/algoritm_100_500.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/push_swap/algoritm_100_500.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/algoritm_100_500.c
 
 CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/push_swap/algoritm_100_500.c > CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/algoritm_100_500.c > CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.i
 
 CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/push_swap/algoritm_100_500.c -o CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/algoritm_100_500.c -o CMakeFiles/push_swap.dir/src/push_swap/algoritm_100_500.c.s
 
 CMakeFiles/push_swap.dir/src/other/do_stacks.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/other/do_stacks.c.o: ../src/other/do_stacks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/push_swap.dir/src/other/do_stacks.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/do_stacks.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/other/do_stacks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/push_swap.dir/src/other/do_stacks.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/do_stacks.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/other/do_stacks.c
 
 CMakeFiles/push_swap.dir/src/other/do_stacks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/other/do_stacks.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/other/do_stacks.c > CMakeFiles/push_swap.dir/src/other/do_stacks.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/other/do_stacks.c > CMakeFiles/push_swap.dir/src/other/do_stacks.c.i
 
 CMakeFiles/push_swap.dir/src/other/do_stacks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/other/do_stacks.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/other/do_stacks.c -o CMakeFiles/push_swap.dir/src/other/do_stacks.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/other/do_stacks.c -o CMakeFiles/push_swap.dir/src/other/do_stacks.c.s
 
 CMakeFiles/push_swap.dir/src/other/parser.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/other/parser.c.o: ../src/other/parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap.dir/src/other/parser.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/parser.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/other/parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap.dir/src/other/parser.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/parser.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/other/parser.c
 
 CMakeFiles/push_swap.dir/src/other/parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/other/parser.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/other/parser.c > CMakeFiles/push_swap.dir/src/other/parser.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/other/parser.c > CMakeFiles/push_swap.dir/src/other/parser.c.i
 
 CMakeFiles/push_swap.dir/src/other/parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/other/parser.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/other/parser.c -o CMakeFiles/push_swap.dir/src/other/parser.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/other/parser.c -o CMakeFiles/push_swap.dir/src/other/parser.c.s
 
 CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.o: ../src/other/rules_pa_pb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/other/rules_pa_pb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/other/rules_pa_pb.c
 
 CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/other/rules_pa_pb.c > CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/other/rules_pa_pb.c > CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.i
 
 CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/other/rules_pa_pb.c -o CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/other/rules_pa_pb.c -o CMakeFiles/push_swap.dir/src/other/rules_pa_pb.c.s
 
 CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.o: ../src/other/rules_ra_rb_rr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/other/rules_ra_rb_rr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/other/rules_ra_rb_rr.c
 
 CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/other/rules_ra_rb_rr.c > CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/other/rules_ra_rb_rr.c > CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.i
 
 CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/other/rules_ra_rb_rr.c -o CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/other/rules_ra_rb_rr.c -o CMakeFiles/push_swap.dir/src/other/rules_ra_rb_rr.c.s
 
 CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.o: ../src/other/rules_rra_rrb_rrr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/other/rules_rra_rrb_rrr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/other/rules_rra_rrb_rrr.c
 
 CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/other/rules_rra_rrb_rrr.c > CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/other/rules_rra_rrb_rrr.c > CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.i
 
 CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/other/rules_rra_rrb_rrr.c -o CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/other/rules_rra_rrb_rrr.c -o CMakeFiles/push_swap.dir/src/other/rules_rra_rrb_rrr.c.s
 
 CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.o: ../src/other/rules_sa_sb_ss.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/other/rules_sa_sb_ss.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/other/rules_sa_sb_ss.c
 
 CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/other/rules_sa_sb_ss.c > CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/other/rules_sa_sb_ss.c > CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.i
 
 CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/other/rules_sa_sb_ss.c -o CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/other/rules_sa_sb_ss.c -o CMakeFiles/push_swap.dir/src/other/rules_sa_sb_ss.c.s
 
 CMakeFiles/push_swap.dir/src/other/other.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/other/other.c.o: ../src/other/other.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/push_swap.dir/src/other/other.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/other.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/other/other.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/push_swap.dir/src/other/other.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/other/other.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/other/other.c
 
 CMakeFiles/push_swap.dir/src/other/other.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/other/other.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/other/other.c > CMakeFiles/push_swap.dir/src/other/other.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/other/other.c > CMakeFiles/push_swap.dir/src/other/other.c.i
 
 CMakeFiles/push_swap.dir/src/other/other.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/other/other.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/other/other.c -o CMakeFiles/push_swap.dir/src/other/other.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/other/other.c -o CMakeFiles/push_swap.dir/src/other/other.c.s
 
 CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.o: ../src/push_swap/after_chanks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/push_swap/after_chanks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/after_chanks.c
 
 CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/push_swap/after_chanks.c > CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/after_chanks.c > CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.i
 
 CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/push_swap/after_chanks.c -o CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/after_chanks.c -o CMakeFiles/push_swap.dir/src/push_swap/after_chanks.c.s
 
 CMakeFiles/push_swap.dir/src/push_swap/best_way.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/push_swap/best_way.c.o: ../src/push_swap/best_way.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/push_swap.dir/src/push_swap/best_way.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/best_way.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/push_swap/best_way.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/push_swap.dir/src/push_swap/best_way.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/best_way.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/best_way.c
 
 CMakeFiles/push_swap.dir/src/push_swap/best_way.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/best_way.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/push_swap/best_way.c > CMakeFiles/push_swap.dir/src/push_swap/best_way.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/best_way.c > CMakeFiles/push_swap.dir/src/push_swap/best_way.c.i
 
 CMakeFiles/push_swap.dir/src/push_swap/best_way.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/best_way.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/push_swap/best_way.c -o CMakeFiles/push_swap.dir/src/push_swap/best_way.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/best_way.c -o CMakeFiles/push_swap.dir/src/push_swap/best_way.c.s
 
 CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.o: ../src/push_swap/chank_in_b.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/push_swap/chank_in_b.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/chank_in_b.c
 
 CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/push_swap/chank_in_b.c > CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/chank_in_b.c > CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.i
 
 CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/push_swap/chank_in_b.c -o CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/push_swap/chank_in_b.c -o CMakeFiles/push_swap.dir/src/push_swap/chank_in_b.c.s
 
 CMakeFiles/push_swap.dir/src/checker/checker.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/src/checker/checker.c.o: ../src/checker/checker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/push_swap.dir/src/checker/checker.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/checker/checker.c.o   -c /Users/kplums/CLionProjects/School/push_swap/src/checker/checker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/push_swap.dir/src/checker/checker.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/checker/checker.c.o   -c /Users/kplums/CLionProjects/School-21/push_swap/src/checker/checker.c
 
 CMakeFiles/push_swap.dir/src/checker/checker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/checker/checker.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School/push_swap/src/checker/checker.c > CMakeFiles/push_swap.dir/src/checker/checker.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kplums/CLionProjects/School-21/push_swap/src/checker/checker.c > CMakeFiles/push_swap.dir/src/checker/checker.c.i
 
 CMakeFiles/push_swap.dir/src/checker/checker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/checker/checker.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School/push_swap/src/checker/checker.c -o CMakeFiles/push_swap.dir/src/checker/checker.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kplums/CLionProjects/School-21/push_swap/src/checker/checker.c -o CMakeFiles/push_swap.dir/src/checker/checker.c.s
 
 # Object files for target push_swap
 push_swap_OBJECTS = \
@@ -296,7 +296,7 @@ push_swap: CMakeFiles/push_swap.dir/src/checker/checker.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: /Users/kplums/CLionProjects/School/libft/libft.a
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -309,6 +309,6 @@ CMakeFiles/push_swap.dir/clean:
 .PHONY : CMakeFiles/push_swap.dir/clean
 
 CMakeFiles/push_swap.dir/depend:
-	cd /Users/kplums/CLionProjects/School/push_swap/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kplums/CLionProjects/School/push_swap /Users/kplums/CLionProjects/School/push_swap /Users/kplums/CLionProjects/School/push_swap/cmake-build-debug /Users/kplums/CLionProjects/School/push_swap/cmake-build-debug /Users/kplums/CLionProjects/School/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kplums/CLionProjects/School-21/push_swap /Users/kplums/CLionProjects/School-21/push_swap /Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug /Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug /Users/kplums/CLionProjects/School-21/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/push_swap.dir/depend
 

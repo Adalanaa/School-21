@@ -63,7 +63,7 @@ t_list1				*ft_lstmap(t_list1 *lst, t_list1 *(*f)(t_list1 *elem));
 t_list1				*ft_lstnew(void const *content, size_t content_size);
 
 void				ft_bzero(void *s, size_t n);
-void *ft_malloc(size_t size, size_t sizeoff);
+void				*ft_malloc(size_t size, size_t sizeoff);
 void				*ft_memalloc(size_t size);
 void				*ft_memccpy(void *dst, const void *src, int c, size_t n);
 void				*ft_memchr(const void *s, int c, size_t n);

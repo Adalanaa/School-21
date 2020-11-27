@@ -6,5 +6,5 @@ C_FLAGS = -Wall -Werror -Wextra -g -isysroot /Applications/Xcode.app/Contents/De
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/kplums/CLionProjects/School/push_swap/../libft/includes -I/Users/kplums/CLionProjects/School/push_swap/includes 
+C_INCLUDES = -I/Users/kplums/CLionProjects/School-21/push_swap/../libft/includes -I/Users/kplums/CLionProjects/School-21/push_swap/includes 
 
