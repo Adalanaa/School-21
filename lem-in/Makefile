@@ -23,8 +23,8 @@ FILES		=	add_level.c \
 				links.c \
 				move.c \
 				output.c \
-				path.c \
-				validate.c
+				parser.c \
+				path.c
 
 #			HEADERS			#
 SRC_INC_DIR = ./includes/

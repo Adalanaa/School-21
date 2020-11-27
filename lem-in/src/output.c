@@ -1,12 +1,11 @@
 
 #include "lem-in.h"
 
-void	error_case(void *to_free)
+void lemin_error(void *to_free, int error)
 {
 	if (to_free != NULL)
 		free(to_free);
-	write(2, "Error\n", 6);
-	exit(0);
+	ft_exit_error(error);
 }
 
 void	print_line(char *line)

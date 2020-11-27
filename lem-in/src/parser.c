@@ -70,7 +70,7 @@ t_lem	lemin_parser(void)
 	int		ans;
 
 	line = NULL;
-	lem_init(&ret, &is_soe, &i);
+	init_lemin(&ret, &is_soe, &i);
 	ant_count(line, &ret);
 	while ((ans = get_next_line(0, &line)))
 	{

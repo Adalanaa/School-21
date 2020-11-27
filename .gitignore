@@ -53,3 +53,8 @@ dkms.conf
 pft/
 /push_swap/visu/
 /push_swap/
+/lem-in/.idea/
+/lem-in/cmake-build-debug/
+/libft/.idea/
+/libft/cmake-build-debug/
+/lem-in/.idea/

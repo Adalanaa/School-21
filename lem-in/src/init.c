@@ -1,16 +1,16 @@
 
 #include "lem-in.h"
 
-void	lem_init(t_lem *ret, int *a, int *i)
+void	init_lemin(t_lem *ret, int *a, int *i)
 {
 	ret->start = -1;
 	ret->end = -1;
 	ret->r_count = 0;
-	ret->a_count = 0;
+	ret->ants_count = 0;
 	*a = 0;
 	*i = 0;
 	ret->memory = 50;
-	ret->rooms = (t_room*)malloc(sizeof(t_room) * 50);
+	ret->rooms = (t_room*)ft_malloc(50, sizeof(t_room));
 }
 
 void	new_elem(int id, t_queue *queue)

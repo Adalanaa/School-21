@@ -56,13 +56,13 @@ void	add_links(char *line, t_lem *ret)
 	{
 		free_split(split);
 		free(ret->rooms);
-		error_case(line);
+		lemin_error(line, 0);
 	}
 	len = -1;
 	count = check_links(&link1, &link2, ret, split);
 	free_split(split);
 	if (!is_link(link1, link2, ret, count))
-		error_case(line);
+		lemin_error(line, 0);
 }
 
 void	create_array_links(t_lem *ret)
@@ -88,7 +88,7 @@ void	create_array_links(t_lem *ret)
 t_lem	array_links(t_lem ret, int is_soe, int ans, char *line)
 {
 	if (ret.start == -1 || ret.end == -1 || ans == 0)
-		error_case(ret.rooms);
+		lemin_error(ret.rooms, 0);
 	create_array_links(&ret);
 	while (1)
 	{

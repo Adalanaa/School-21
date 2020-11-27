@@ -5,7 +5,7 @@ void	coords_free_and_error(t_lem *ret, char **split, char *line)
 {
 	free(ret->rooms);
 	free_split(split);
-	error_case(line);
+	lemin_error(line, 0);
 }
 
 void	free_split(char **split)

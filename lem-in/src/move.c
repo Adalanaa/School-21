@@ -3,21 +3,21 @@
 
 void	run_ant(t_lem lemin, int *ant, int *finished)
 {
-	if (*ant <= lemin.a_count)
+	if (*ant <= lemin.ants_count)
 	{
 		while (lemin.paths != NULL)
 		{
 			if ((lemin.paths->first->ant == 0 &&
-				lemin.paths->ratio < lemin.a_count - (*ant) + 1)
+				lemin.paths->ratio < lemin.ants_count - (*ant) + 1)
 				|| lemin.paths->first == lemin.paths->last)
 			{
 				print_ant_step(ft_itoa(*ant), \
 					lemin.rooms[lemin.paths->first->id].name);
 				if (lemin.paths->first == lemin.paths->last)
-					if (++(*finished) >= lemin.a_count)
+					if (++(*finished) >= lemin.ants_count)
 						return ;
 				lemin.paths->first->ant = *ant;
-				if (++(*ant) > lemin.a_count)
+				if (++(*ant) > lemin.ants_count)
 					break ;
 			}
 			lemin.paths = lemin.paths->next;
@@ -34,7 +34,7 @@ void	move_ant(t_lem *lemin, t_cont *curr, t_path *c_path)
 		{
 			print_ant_step(ft_itoa(curr->ant), \
 				lemin->rooms[curr->next->id].name);
-			if (++(lemin->finished) >= lemin->a_count)
+			if (++(lemin->finished) >= lemin->ants_count)
 				return ;
 		}
 		else
@@ -91,7 +91,7 @@ void	move_ants(t_lem lemin)
 	ant = 1;
 	lemin.finished = 0;
 	count_ratio(lemin);
-	while (lemin.finished < lemin.a_count)
+	while (lemin.finished < lemin.ants_count)
 	{
 		run_ant(lemin, &ant, &(lemin.finished));
 		move_possible(&lemin);
