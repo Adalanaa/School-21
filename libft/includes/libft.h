@@ -112,6 +112,7 @@ char				*ft_strsub(char const *s, unsigned int start, size_t len);
 char				*ft_strtrim(char const *s);
 
 int					ft_atoi(const char *str);
+long long int		ft_atoi_longlong(const char *str);
 char				*ft_itoa(int n);
 char				*ft_itoa_base(uintmax_t value, int base, int sign);
 
