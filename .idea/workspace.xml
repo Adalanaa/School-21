@@ -21,7 +21,7 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/ft_printf" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/lem-in" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -34,7 +34,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebf58771-df41-4f65-b2a3-aebcae8dd668" name="Default Changelist" comment="add push_swap" />
+    <list default="true" id="ebf58771-df41-4f65-b2a3-aebcae8dd668" name="Default Changelist" comment="norm libft">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in/includes/lem-in.h" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in/includes/lem-in.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in/src/ant_and_comment.c" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in/src/ant_and_comment.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in/src/free.c" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in/src/free.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in/src/init.c" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in/src/init.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in/src/lemin.c" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in/src/lemin.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in/src/links.c" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in/src/links.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in/src/output.c" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in/src/output.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lem-in/src/parser.c" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in/src/parser.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/src/output/ft_error.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/output/ft_error.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,17 +88,17 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Natalia\CLionProjects\School\School-21" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Natalia\CLionProjects\School\School-21" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -98,6 +111,9 @@
       <option name="presentableId" value="Default" />
       <updated>1606058544574</updated>
       <workItem from="1606058547289" duration="7594000" />
+      <workItem from="1606481997473" duration="213000" />
+      <workItem from="1606482928099" duration="38000" />
+      <workItem from="1606489216851" duration="1446000" />
     </task>
     <task id="LOCAL-00001" summary="add ft_printf">
       <created>1606065668786</created>
@@ -113,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606066050698</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="norm libft">
+      <created>1606480165922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606480165922</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +153,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/ft_printf" />
+                        <option value="origin/lem-in" />
                       </list>
                     </value>
                   </entry>
@@ -156,17 +179,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add ft_printf" />
     <MESSAGE value="add push_swap" />
-    <option name="LAST_COMMIT_MESSAGE" value="add push_swap" />
+    <MESSAGE value="norm libft" />
+    <option name="LAST_COMMIT_MESSAGE" value="norm libft" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="187" key="#Notifications" timestamp="1606065037936">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="187" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1606065037936" />
+    <state x="880" y="371" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606481204401">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="880" y="371" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1606481204401" />
     <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1606066757569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -179,10 +208,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606065027122" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1606067082741">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="515" y="199" key="Vcs.Push.Dialog.v2" timestamp="1606480191026">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606067082741" />
+    <state x="515" y="199" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1606480191026" />
     <state x="433" y="97" key="VcsDiffUtil.ChangesDialog" timestamp="1606065115612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -191,5 +221,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1606066636672" />
+    <state x="1170" y="429" key="git4idea.branch.GitSmartOperationDialog" timestamp="1606482024286">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1170" y="429" key="git4idea.branch.GitSmartOperationDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1606482024286" />
   </component>
 </project>
