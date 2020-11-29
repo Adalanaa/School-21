@@ -75,7 +75,7 @@ t_path	*get_paths(t_lem lemin)
 
 	ret = NULL;
 	i = 0;
-	while (i < lemin.r_count)
+	while (i < lemin.room_count)
 	{
 		if (lemin.links[lemin.start][i] == 1)
 		{

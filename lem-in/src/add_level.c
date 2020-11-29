@@ -8,7 +8,7 @@ void	init_and_count_room(t_lem *lemin, int *count_entrance, int *j)
 	*j = 0;
 	*count_entrance = 0;
 	i = 0;
-	while (i < lemin->r_count)
+	while (i < lemin->room_count)
 	{
 		if (lemin->links[lemin->start][i] == 1 && i != lemin->start)
 		{
@@ -32,7 +32,7 @@ int		*create_first_array(t_lem *lemin, int *len)
 	array_1 = (int*)malloc(sizeof(int) * (count_entrance));
 	*len = count_entrance;
 	i = 0;
-	while (i < lemin->r_count)
+	while (i < lemin->room_count)
 	{
 		if (lemin->links[lemin->start][i] == 1 && i != lemin->start)
 		{
@@ -55,7 +55,7 @@ void	init_and_sum_room(t_c *var, t_lem *lemin, int *array, int len)
 	while (var->j < len)
 	{
 		i = 0;
-		while (i < lemin->r_count)
+		while (i < lemin->room_count)
 		{
 			if (lemin->links[array[var->j]][i] == 1)
 			{
@@ -81,7 +81,7 @@ void	add_room_in_array(t_lem *lemin, int *array, t_c *var, int **new_array)
 	int i;
 
 	i = 0;
-	while (i < lemin->r_count)
+	while (i < lemin->room_count)
 	{
 		if (lemin->links[array[var->j]][i] == 1 &&
 		lemin->rooms[i].level > lemin->rooms[array[var->j]].level

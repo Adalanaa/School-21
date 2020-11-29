@@ -33,7 +33,7 @@ HEADERS = $(addprefix $(SRC_INC_DIR), $(INCLUDES))
 DEPS = $(HEADERS) Makefile $(LIBFT)
 
 #			LIB				#
-LIB_DIR = ../libft/
+LIB_DIR = ../libft
 LIB_INC_DIR = ../libft/includes/
 LIBFT = $(LIB_DIR)/libft.a
 
@@ -52,20 +52,22 @@ OBJ_DIR			= obj/
 OBJ				= $(SRC:$(SRC_DIR)%.c=$(OBJ_DIR)%.o)
 
 #___________________________
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re FAKE
 
-all: $(LIBFT) $(NAME)
+all: $(NAME)
 
-$(LIBFT):
-	@$(MAKE) -C $(LIB_DIR)
+-include $(OBJ:.o=.d)
 
-$(NAME): $(OBJ)
+$(NAME): $(OBJ) $(LIBFT)
 	@$(CC) $(CFLGS) -o $(NAME) $(OBJ) $(LFLGS)
 	@echo "\033[32mLEMIN OK\033[0m"
 
 $(OBJ_DIR)%.o : $(SRC_DIR)%.c $(DEPS)
 	@mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLGS) -MD -I $(SRC_INC_DIR) -I ../libft/includes/ $< -c -o $@
+	$(CC) $(CFLGS) -MMD -I $(SRC_INC_DIR) -I $(LIB_INC_DIR) -o $@ -c $<
+
+$(LIBFT): FAKE
+	@$(MAKE) -C $(LIB_DIR)
 
 clean:
 	@rm -rf obj

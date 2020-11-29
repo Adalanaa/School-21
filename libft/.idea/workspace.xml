@@ -37,21 +37,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b74a07f-ddd6-4072-8e91-ede0ce1bd232" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/includes/lem-in.h" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/includes/lem-in.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/add_level.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/add_level.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/ant_and_comment.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/ant_and_comment.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/check_in.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/check_in.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/check_out.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/check_out.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/count_in_out.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/count_in_out.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/free.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/free.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/init.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/init.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/lemin.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/lemin.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/links.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/links.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/src/move.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/move.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/src/output.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/output.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/src/parser.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/parser.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/parser.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/path.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/path.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/get_next_line.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/get_next_line.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/libft.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gnl/get_next_line.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/gnl/get_next_line.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/int/ft_int_abs.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/int/ft_int_abs.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/output/ft_error.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ft_error.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,11 +87,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ft_printf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/gnl" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/gnl" />
+      <recent name="$PROJECT_DIR$/src/ft_printf" />
+      <recent name="$PROJECT_DIR$/includes" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/char" />
       <recent name="$PROJECT_DIR$/src/string" />
@@ -94,18 +105,8 @@
       <recent name="$PROJECT_DIR$/src/arr" />
       <recent name="$PROJECT_DIR$/src/memory" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/ft_printf" />
-      <recent name="$PROJECT_DIR$/includes" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="libft" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libft" TARGET_NAME="libft" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libft" RUN_TARGET_NAME="libft">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -135,6 +136,10 @@
       <workItem from="1606490774446" duration="492000" />
       <workItem from="1606492281356" duration="2631000" />
       <workItem from="1606495522182" duration="1849000" />
+      <workItem from="1606567764399" duration="3423000" />
+      <workItem from="1606574887335" duration="1452000" />
+      <workItem from="1606577494076" duration="2018000" />
+      <workItem from="1606652619955" duration="4477000" />
     </task>
     <servers />
   </component>
@@ -190,9 +195,9 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="1499" height="280" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1605636957652" />
-    <state x="1479" y="544" key="refactoring.ChangeSignatureDialog" timestamp="1605622190959">
+    <state x="1479" y="544" key="refactoring.ChangeSignatureDialog" timestamp="1606570100934">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1479" y="544" key="refactoring.ChangeSignatureDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605622190959" />
+    <state x="1479" y="544" key="refactoring.ChangeSignatureDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1606570100934" />
   </component>
 </project>

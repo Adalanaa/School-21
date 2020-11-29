@@ -10,7 +10,7 @@ int		check_links(int *link1, int *link2, t_lem *ret, char **split)
 	*link1 = 0;
 	*link2 = 0;
 	count = 0;
-	while (++len != ret->r_count)
+	while (++len != ret->room_count)
 	{
 		if (ft_strcmp(ret->rooms[len].name, split[0]) == 0 ||
 			ft_strcmp(ret->rooms[len].name, split[1]) == 0)
@@ -22,6 +22,7 @@ int		check_links(int *link1, int *link2, t_lem *ret, char **split)
 			count++;
 		}
 	}
+
 	return (count);
 }
 
@@ -71,12 +72,12 @@ void	create_array_links(t_lem *ret)
 	int j;
 
 	i = 0;
-	ret->links = (int **)malloc(sizeof(int *) * (ret->r_count));
-	while (i != ret->r_count)
+	ret->links = (int **)malloc(sizeof(int *) * (ret->room_count));
+	while (i != ret->room_count)
 	{
 		j = 0;
-		ret->links[i] = (int *)malloc(sizeof(int) * (ret->r_count));
-		while (j != ret->r_count)
+		ret->links[i] = (int *)malloc(sizeof(int) * (ret->room_count));
+		while (j != ret->room_count)
 		{
 			ret->links[i][j] = 0;
 			j++;
@@ -85,23 +86,23 @@ void	create_array_links(t_lem *ret)
 	}
 }
 
-t_lem	array_links(t_lem ret, int is_soe, int ans, char *line)
+t_lem	array_links(t_lem ret, int is_soe, int answer, char *line)
 {
-	if (ret.start == -1 || ret.end == -1 || ans == 0)
-		lemin_error(ret.rooms, 0);
+	if (ret.start == -1 || ret.end == -1 || answer == 0)
+		lemin_error(ret.rooms, WRONG_ROOM);
 	create_array_links(&ret);
 	while (1)
 	{
 		if (check_comment(line, &ret, &is_soe))
 		{
-			if (get_next_line(0, &line) <= 0)
+			if (get_next_line_bd(0, &line) <= 0)
 				break ;
 			print_line(line);
 			continue ;
 		}
 		add_links(line, &ret);
 		free(line);
-		if (get_next_line(0, &line) <= 0)
+		if (get_next_line_bd(0, &line) <= 0)
 			break ;
 		print_line(line);
 	}

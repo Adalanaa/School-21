@@ -24,7 +24,7 @@ void	check_out(t_lem *lemin)
 	t_queue	queue;
 
 	i = 0;
-	while (i < lemin->r_count)
+	while (i < lemin->room_count)
 		lemin->rooms[i++].is_visit = 0;
 	queue = init_queue(lemin->end);
 	while (queue.cont != NULL)

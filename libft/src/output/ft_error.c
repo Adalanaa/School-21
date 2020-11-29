@@ -14,7 +14,7 @@
 
 void	ft_exit_error(int error)
 {
-	ft_putstr_fd("ERROR", 2);
+	ft_putstr_fd("ERROR ", 2);
 	if (DEBAG)
 		ft_putnbr_fd(error, 2);
 	ft_putchar_fd('\n', 2);

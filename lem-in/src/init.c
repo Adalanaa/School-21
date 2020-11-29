@@ -5,7 +5,7 @@ void	init_lemin(t_lem *ret, int *a, int *i)
 {
 	ret->start = -1;
 	ret->end = -1;
-	ret->r_count = 0;
+	ret->room_count = 0;
 	ret->ants_count = 0;
 	*a = 0;
 	*i = 0;
@@ -37,7 +37,7 @@ void	init_path(t_lem lemin, t_path **ret, t_cont **path, int i)
 	int k;
 
 	k = 0;
-	while (k < lemin.r_count)
+	while (k < lemin.room_count)
 		lemin.rooms[k++].is_visit = 0;
 	lemin.rooms[lemin.start].is_visit = 1;
 	lemin.rooms[i].is_visit = 1;

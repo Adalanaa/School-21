@@ -6,7 +6,7 @@ void	edit_links(t_lem *lemin, int pos, int room)
 	int i;
 
 	i = 0;
-	while (i != lemin->r_count)
+	while (i != lemin->room_count)
 	{
 		if (lemin->links[pos][i] == 1 && i != room &&
 			lemin->rooms[pos].level > lemin->rooms[i].level && i != lemin->end)
@@ -28,7 +28,7 @@ void	delete_in(t_lem *lemin, int pos)
 
 	i = 0;
 	max = 2147483647;
-	while (i != lemin->r_count)
+	while (i != lemin->room_count)
 	{
 		if (lemin->links[pos][i] == 1 &&
 			lemin->rooms[pos].level > lemin->rooms[i].level &&
@@ -47,7 +47,7 @@ void	check_in(t_lem *lemin)
 	int i;
 
 	i = 0;
-	while (i != lemin->r_count)
+	while (i != lemin->room_count)
 	{
 		if (lemin->rooms[i].in > 1 && i != lemin->end)
 			delete_in(lemin, i);

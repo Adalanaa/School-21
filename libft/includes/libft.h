@@ -12,7 +12,9 @@
 
 #ifndef FT_LIBFT_H
 # define FT_LIBFT_H
-# define DEBAG 0
+# define MAX_INT 2147483647
+# define MIN_INT -2147483648
+# define DEBAG 1
 
 # include <unistd.h>
 # include <stdlib.h>

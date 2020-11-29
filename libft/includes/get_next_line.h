@@ -25,5 +25,6 @@ typedef struct				s_gnl
 }							t_gnl;
 
 int							get_next_line(const int fd, char **line);
+int							get_next_line_bd(const int fd, char **line);
 
 #endif

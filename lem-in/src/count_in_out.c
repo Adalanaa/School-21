@@ -10,7 +10,7 @@ void	delete_dead_end(t_lem *lemin, int i)
 		return ;
 	if (lemin->rooms[i].out == 0)
 	{
-		while (j < lemin->r_count)
+		while (j < lemin->room_count)
 		{
 			if (lemin->links[i][j] == 1)
 			{
@@ -45,10 +45,10 @@ void	dfs_in_out(t_lem *lemin)
 	int j;
 
 	i = 0;
-	while (i < lemin->r_count)
+	while (i < lemin->room_count)
 	{
 		j = i;
-		while (j < lemin->r_count)
+		while (j < lemin->room_count)
 		{
 			if (lemin->rooms[i].level == lemin->rooms[j].level
 				&& lemin->links[i][j] == 1)
@@ -63,7 +63,7 @@ void	dfs_in_out(t_lem *lemin)
 		i++;
 	}
 	i = -1;
-	while (++i < lemin->r_count)
+	while (++i < lemin->room_count)
 		delete_dead_end(lemin, i);
 }
 
@@ -72,7 +72,7 @@ void	count_in_out(t_lem *lemin)
 	int i;
 
 	i = 0;
-	while (i < lemin->r_count)
+	while (i < lemin->room_count)
 	{
 		lemin->rooms[i].in = 0;
 		lemin->rooms[i].out = 0;

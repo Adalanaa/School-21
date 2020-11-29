@@ -5,7 +5,7 @@
 #                                                     +:+ +:+         +:+      #
 #    By: kplums <kplums@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/09/11 17:37:37 by kplums            #+#    #+#              #
+#    Created: 2019/09/11 17:37:38 by kplums            #+#    #+#              #
 #    Updated: 2019/11/28 17:43:40 by kplums           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
@@ -24,7 +24,8 @@ CHAR_FILES		=	ft_isalnum.c \
 					ft_tolower.c \
 					ft_toupper.c
 
-GNL_FILES		=	get_next_line.c
+GNL_FILES		=	get_next_line.c \
+					get_next_line_bd.c
 
 INT_FILES		=	ft_int_abs.c \
 					ft_int_abs_min.c \

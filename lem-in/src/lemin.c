@@ -1,7 +1,7 @@
 
 #include "lem-in.h"
 
-void	add_level(t_lem *lemin)
+void	add_level(t_lem  *lemin)
 {
 	t_arr array_1;
 	t_arr array_2;
@@ -37,7 +37,7 @@ int		main(void)
 	count_in_out(&lemin);
 	check_in(&lemin);
 	check_out(&lemin);
-	while (i < lemin.r_count)
+	while (i < lemin.room_count)
 	{
 		delete_dead_end(&lemin, i);
 		i++;

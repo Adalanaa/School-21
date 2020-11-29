@@ -17,19 +17,20 @@
 
 enum				lemin_errors
 {
-	LINE_ANT_COUNT = 201,
-	WRONG_COMMENT
-	NO_START_OR_END
+	LINE_ANT_COUNT	= 201,
+	WRONG_COMMENT	= 202,
+	NO_START_OR_END	= 203,
+	WRONG_ROOM		= 204
 };
 
 typedef struct		s_room
 {
-	int				is_start;
-	int				is_end;
-	int				is_visit;
 	char			name[128];
 	int				x;
 	int				y;
+	int				is_start;
+	int				is_end;
+	int				is_visit;
 	int				level;
 	int				out;
 	int				in;
@@ -67,7 +68,7 @@ typedef struct		s_lem
 	t_room			*rooms;
 	int				memory;
 	int				**links;
-	int				r_count;
+	int				room_count;
 	int				ants_count;
 	t_path			*paths;
 	int				finished;
@@ -102,17 +103,17 @@ void				move_ants(t_lem lemin);
 void				free_paths(t_path *paths);
 void				free_all(t_lem lemin);
 void				print_line(char *line);
-void lemin_error(void *to_free, int error);
+void				lemin_error(void *to_free, int error);
 t_queue				init_queue(int id);
 void				new_elem(int id, t_queue *queue);
 void				free_split(char **split);
-int					check_comment(char *line, t_lem *ret, int *is_soe);
+int					check_comment(char *line, t_lem *lemin, int *is_soe);
 void				init_node_links(t_cont **path, int k);
 void				init_path(t_lem lemin, t_path **ret, t_cont **path, int i);
 void				ant_count(char *line, t_lem *ret);
-t_lem				array_links(t_lem ret, int is_soe, int ans, char *line);
+t_lem				array_links(t_lem ret, int is_soe, int answer, char *line);
 void				init_lemin(t_lem *ret, int *a, int *i);
-void				coords_free_and_error(t_lem *ret, char **split, char *line);
+void				coords_free_and_error(t_lem *lemin, char **split, char *line);
 void				print_ant_step(char *ant, char *room);
 
 /*

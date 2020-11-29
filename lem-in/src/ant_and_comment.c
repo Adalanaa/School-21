@@ -15,7 +15,7 @@ void	ant_count(char *line, t_lem *ret)
 	int			i;
 	long long	num;
 
-	while (get_next_line(0, &line))
+	while (get_next_line_bd(0, &line))
 	{
 		ft_putendl(line);
 		if (line[0] == '#')
@@ -52,23 +52,23 @@ int		sys_or_simple_comm(char *line, t_lem *ret)
 	return (0);
 }
 
-int		check_comment(char *line, t_lem *ret, int *is_soe)
+int		check_comment(char *line, t_lem *lemin, int *is_soe)
 {
 	if (ft_strcmp("##start", line) == 0)
 	{
 		free(line);
-		if (ret->start != -1)
-			lemin_error(ret->rooms, NO_START_OR_END);
+		if (lemin->start != -1)
+			lemin_error(lemin->rooms, NO_START_OR_END);
 		*is_soe = 1;
 		return (1);
 	}
 	else if (ft_strcmp("##end", line) == 0)
 	{
 		free(line);
-		if (ret->end != -1)
-			lemin_error(ret->rooms, NO_START_OR_END);
+		if (lemin->end != -1)
+			lemin_error(lemin->rooms, NO_START_OR_END);
 		*is_soe = 2;
 		return (1);
 	}
-	return (sys_or_simple_comm(line, ret));
+	return (sys_or_simple_comm(line, lemin));
 }

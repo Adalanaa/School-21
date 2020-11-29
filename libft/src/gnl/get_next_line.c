@@ -91,7 +91,7 @@ int					get_next_line(const int fd, char **line)
 	t_gnl			*pretmp;
 	int				otvet;
 
-	if (line == NULL || fd < 0)
+	if (!line || fd < 0 || fd > 10240)
 		return (-1);
 	if (head == NULL)
 		head = new_list(fd);
