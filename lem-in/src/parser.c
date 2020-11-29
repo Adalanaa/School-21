@@ -87,5 +87,6 @@ t_lem	lemin_parser(void)
 		is_soe = -1;
 		free(line);
 	}
+
 	return (array_links(lemin, is_soe, answer, line));
 }

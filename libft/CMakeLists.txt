@@ -99,4 +99,4 @@ add_library(libft STATIC
         src/xtoy/ft_atoi.c
         src/xtoy/ft_itoa.c
         src/xtoy/ft_itoa_base.c
-        src/xtoy/ft_atoi_longlong.c)
+        src/xtoy/ft_atoi_longlong.c src/memory/ft_calloc.c)

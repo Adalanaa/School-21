@@ -5,7 +5,7 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: kplums <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/15 13:26:28 by kplums            #+#    #+#             */
+/*   Created: 2020/11/15 13:26:27 by kplums            #+#    #+#             */
 /*   Updated: 2020/11/15 13:26:30 by kplums           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
@@ -20,7 +20,8 @@ enum				lemin_errors
 	LINE_ANT_COUNT	= 201,
 	WRONG_COMMENT	= 202,
 	NO_START_OR_END	= 203,
-	WRONG_ROOM		= 204
+	WRONG_ROOM		= 204,
+	WRONG_LINK		= 205
 };
 
 typedef struct		s_room
@@ -111,8 +112,8 @@ int					check_comment(char *line, t_lem *lemin, int *is_soe);
 void				init_node_links(t_cont **path, int k);
 void				init_path(t_lem lemin, t_path **ret, t_cont **path, int i);
 void				ant_count(char *line, t_lem *ret);
-t_lem				array_links(t_lem ret, int is_soe, int answer, char *line);
-void				init_lemin(t_lem *ret, int *a, int *i);
+t_lem				array_links(t_lem lemin, int is_soe, int answer, char *line);
+void				init_lemin(t_lem *lemin, int *is_soe, int *i);
 void				coords_free_and_error(t_lem *lemin, char **split, char *line);
 void				print_ant_step(char *ant, char *room);
 

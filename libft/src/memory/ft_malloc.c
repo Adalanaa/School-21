@@ -18,6 +18,5 @@ void	*ft_malloc(size_t size, size_t sizeoff)
 
 	if (!(arr = (void *)malloc(size * sizeoff)))
 		ft_exit_error(MALLOC);
-	ft_bzero(arr, size);
 	return (arr);
 }

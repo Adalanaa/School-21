@@ -41,7 +41,7 @@ int		is_link(int link1, int link2, t_lem *ret, int count)
 	}
 }
 
-void	add_links(char *line, t_lem *ret)
+void	add_links(char *line, t_lem *lemin)
 {
 	char	**split;
 	int		len;
@@ -56,14 +56,13 @@ void	add_links(char *line, t_lem *ret)
 	if (len != 2)
 	{
 		free_split(split);
-		free(ret->rooms);
-		lemin_error(line, 0);
+		free(lemin->rooms);
+		lemin_error(line, WRONG_LINK);
 	}
-	len = -1;
-	count = check_links(&link1, &link2, ret, split);
+	count = check_links(&link1, &link2, lemin, split);
 	free_split(split);
-	if (!is_link(link1, link2, ret, count))
-		lemin_error(line, 0);
+	if (!is_link(link1, link2, lemin, count))
+		lemin_error(line, WRONG_LINK);
 }
 
 void	create_array_links(t_lem *ret)
@@ -86,26 +85,26 @@ void	create_array_links(t_lem *ret)
 	}
 }
 
-t_lem	array_links(t_lem ret, int is_soe, int answer, char *line)
+t_lem	array_links(t_lem lemin, int is_soe, int answer, char *line)
 {
-	if (ret.start == -1 || ret.end == -1 || answer == 0)
-		lemin_error(ret.rooms, WRONG_ROOM);
-	create_array_links(&ret);
+	if (lemin.start == -1 || lemin.end == -1 || answer == 0)
+		lemin_error(lemin.rooms, WRONG_ROOM);
+	create_array_links(&lemin);
 	while (1)
 	{
-		if (check_comment(line, &ret, &is_soe))
+		if (check_comment(line, &lemin, &is_soe))
 		{
 			if (get_next_line_bd(0, &line) <= 0)
 				break ;
 			print_line(line);
 			continue ;
 		}
-		add_links(line, &ret);
+		add_links(line, &lemin);
 		free(line);
 		if (get_next_line_bd(0, &line) <= 0)
 			break ;
 		print_line(line);
 	}
 	write(1, "\n", 1);
-	return (ret);
+	return (lemin);
 }

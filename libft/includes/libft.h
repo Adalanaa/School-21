@@ -14,7 +14,7 @@
 # define FT_LIBFT_H
 # define MAX_INT 2147483647
 # define MIN_INT -2147483648
-# define DEBAG 1
+# define DEBAG 0
 
 # include <unistd.h>
 # include <stdlib.h>
@@ -65,6 +65,7 @@ t_list1				*ft_lstmap(t_list1 *lst, t_list1 *(*f)(t_list1 *elem));
 t_list1				*ft_lstnew(void const *content, size_t content_size);
 
 void				ft_bzero(void *s, size_t n);
+void				*ft_malloc(size_t size, size_t sizeoff);
 void				*ft_malloc(size_t size, size_t sizeoff);
 void				*ft_memalloc(size_t size);
 void				*ft_memccpy(void *dst, const void *src, int c, size_t n);

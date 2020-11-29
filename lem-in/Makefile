@@ -52,11 +52,9 @@ OBJ_DIR			= obj/
 OBJ				= $(SRC:$(SRC_DIR)%.c=$(OBJ_DIR)%.o)
 
 #___________________________
-.PHONY: all clean fclean re FAKE
+.PHONY: all clean fclean re LIBRELINK
 
 all: $(NAME)
-
--include $(OBJ:.o=.d)
 
 $(NAME): $(OBJ) $(LIBFT)
 	@$(CC) $(CFLGS) -o $(NAME) $(OBJ) $(LFLGS)
@@ -66,7 +64,7 @@ $(OBJ_DIR)%.o : $(SRC_DIR)%.c $(DEPS)
 	@mkdir -p $(OBJ_DIR)
 	$(CC) $(CFLGS) -MMD -I $(SRC_INC_DIR) -I $(LIB_INC_DIR) -o $@ -c $<
 
-$(LIBFT): FAKE
+$(LIBFT): LIBRELINK
 	@$(MAKE) -C $(LIB_DIR)
 
 clean:

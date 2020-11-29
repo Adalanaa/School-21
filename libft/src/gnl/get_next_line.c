@@ -70,7 +70,7 @@ static t_gnl		*new_list(int fd)
 		return (NULL);
 	new->fd = fd;
 	new->next = NULL;
-	new->ostatok = NULL;
+	new->ost = NULL;
 	return (new);
 }
 
@@ -78,7 +78,7 @@ static void			ft_tmpdel(t_gnl **alst)
 {
 	if (!*alst || !alst)
 		return ;
-	ft_memdel((void **)&((*alst)->ostatok));
+	ft_memdel((void **)&((*alst)->ost));
 	ft_memdel((void **)&((*alst)->next));
 	free(*alst);
 	alst = NULL;
@@ -103,7 +103,7 @@ int					get_next_line(const int fd, char **line)
 		pretmp = tmp;
 		tmp = tmp->next;
 	}
-	otvet = read_line(tmp->fd, line, &tmp->ostatok);
+	otvet = read_line(tmp->fd, line, &tmp->ost);
 	if (otvet == 0 && pretmp)
 	{
 		pretmp->next = tmp->next;

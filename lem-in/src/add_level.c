@@ -110,11 +110,7 @@ int		*create_array(int *array, t_lem *lemin, int len, int *len_new)
 	int *new_array;
 	t_c var;
 
-	var.z = 0;
-	var.check = 0;
-	var.k = 0;
-	var.j = 0;
-	var.count = 0;
+	ft_bzero(&var, sizeof(var));
 	init_and_sum_room(&var, lemin, array, len);
 	*len_new = var.count;
 	if (var.count == 0)

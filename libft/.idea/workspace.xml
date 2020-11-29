@@ -37,27 +37,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b74a07f-ddd6-4072-8e91-ede0ce1bd232" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/School-21.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/School-21.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/flow-one" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/maps/flow-one" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/generator" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/generator" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/includes/lem-in.h" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/includes/lem-in.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/lem-in" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/lem-in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/simple" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/maps/simple" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/add_level.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/add_level.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/src/ant_and_comment.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/ant_and_comment.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/src/check_in.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/check_in.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/src/check_out.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/check_out.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/src/count_in_out.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/count_in_out.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/src/free.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/free.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/init.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/init.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/lemin.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/lemin.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/links.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/links.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/src/parser.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/src/path.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/path.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/parser.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/parser.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/get_next_line.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/get_next_line.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/libft.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gnl/get_next_line.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/gnl/get_next_line.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/int/ft_int_abs.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/int/ft_int_abs.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output/ft_error.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ft_error.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gnl/get_next_line_bd.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/gnl/get_next_line_bd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/memory/ft_malloc.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/memory/ft_malloc.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +107,11 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="libft" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libft" TARGET_NAME="libft" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libft" RUN_TARGET_NAME="libft">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -139,7 +144,8 @@
       <workItem from="1606567764399" duration="3423000" />
       <workItem from="1606574887335" duration="1452000" />
       <workItem from="1606577494076" duration="2018000" />
-      <workItem from="1606652619955" duration="4477000" />
+      <workItem from="1606652619955" duration="10330000" />
+      <workItem from="1606671197596" duration="1053000" />
     </task>
     <servers />
   </component>
@@ -179,22 +185,38 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="779" y="655" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1606495572768" />
-    <state width="1499" height="280" key="GridCell.Tab.0.bottom" timestamp="1605636957653">
+    <state width="922" height="424" key="GridCell.Tab.0.bottom" timestamp="1606670949280">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1499" height="280" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1605636957653" />
-    <state width="1499" height="280" key="GridCell.Tab.0.center" timestamp="1605636957652">
+    <state width="922" height="424" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1606670949280" />
+    <state width="922" height="424" key="GridCell.Tab.0.center" timestamp="1606670949280">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1499" height="280" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1605636957652" />
-    <state width="1499" height="280" key="GridCell.Tab.0.left" timestamp="1605636957651">
+    <state width="922" height="424" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1606670949280" />
+    <state width="922" height="424" key="GridCell.Tab.0.left" timestamp="1606670949280">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1499" height="280" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1605636957651" />
-    <state width="1499" height="280" key="GridCell.Tab.0.right" timestamp="1605636957652">
+    <state width="922" height="424" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1606670949280" />
+    <state width="922" height="424" key="GridCell.Tab.0.right" timestamp="1606670949280">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="1499" height="280" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1605636957652" />
+    <state width="922" height="424" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1606670949280" />
+    <state width="922" height="424" key="GridCell.Tab.1.bottom" timestamp="1606670949281">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="922" height="424" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1606670949281" />
+    <state width="922" height="424" key="GridCell.Tab.1.center" timestamp="1606670949280">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="922" height="424" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1606670949280" />
+    <state width="922" height="424" key="GridCell.Tab.1.left" timestamp="1606670949280">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="922" height="424" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1606670949280" />
+    <state width="922" height="424" key="GridCell.Tab.1.right" timestamp="1606670949281">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="922" height="424" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1606670949281" />
     <state x="1479" y="544" key="refactoring.ChangeSignatureDialog" timestamp="1606570100934">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>

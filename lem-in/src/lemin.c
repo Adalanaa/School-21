@@ -1,13 +1,13 @@
 
 #include "lem-in.h"
 
-void	add_level(t_lem  *lemin)
+void	add_level_room(t_lem *lemin)
 {
 	t_arr array_1;
 	t_arr array_2;
 
 	lemin->rooms[lemin->start].level = 0;
-	lemin->rooms[lemin->end].level = 2147483647;
+	lemin->rooms[lemin->end].level = MAX_INT;
 	array_1.len = 0;
 	array_2.len = 0;
 	array_1.array = create_first_array(lemin, &array_1.len);
@@ -15,12 +15,12 @@ void	add_level(t_lem  *lemin)
 	{
 		array_2.array = create_array(array_1.array, \
 		lemin, array_1.len, &array_2.len);
-		free(array_1.array);
+		ft_memdel((void **)&array_1.array);
 		if (array_2.len == 0)
 			break ;
 		array_1.array = create_array(array_2.array, \
 		lemin, array_2.len, &array_1.len);
-		free(array_2.array);
+		ft_memdel((void **)&array_2.array);
 		if (array_1.len == 0)
 			break ;
 	}
@@ -33,7 +33,7 @@ int		main(void)
 
 	i = 0;
 	lemin = lemin_parser();
-	add_level(&lemin);
+	add_level_room(&lemin);
 	count_in_out(&lemin);
 	check_in(&lemin);
 	check_out(&lemin);

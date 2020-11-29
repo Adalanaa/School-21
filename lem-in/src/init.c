@@ -1,16 +1,16 @@
 
 #include "lem-in.h"
 
-void	init_lemin(t_lem *ret, int *a, int *i)
+void	init_lemin(t_lem *lemin, int *is_soe, int *i)
 {
-	ret->start = -1;
-	ret->end = -1;
-	ret->room_count = 0;
-	ret->ants_count = 0;
-	*a = 0;
+	lemin->start = -1;
+	lemin->end = -1;
+	lemin->room_count = 0;
+	lemin->ants_count = 0;
+	*is_soe = 0;
 	*i = 0;
-	ret->memory = 50;
-	ret->rooms = (t_room*)ft_malloc(50, sizeof(t_room));
+	lemin->memory = 50;
+	lemin->rooms = (t_room*)ft_malloc(50, sizeof(t_room));
 }
 
 void	new_elem(int id, t_queue *queue)

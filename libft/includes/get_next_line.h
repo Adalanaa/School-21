@@ -20,7 +20,7 @@
 typedef struct				s_gnl
 {
 	int						fd;
-	char					*ostatok;
+	char					*ost;
 	struct s_gnl			*next;
 }							t_gnl;
 

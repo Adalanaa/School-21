@@ -44,6 +44,7 @@ LIST_FILES		=	ft_lst1add.c \
 					ft_lst1new.c
 
 MEMORY_FILES	=	ft_bzero.c \
+					ft_calloc.c \
 					ft_malloc.c \
 					ft_memalloc.c \
 					ft_memccpy.c \
