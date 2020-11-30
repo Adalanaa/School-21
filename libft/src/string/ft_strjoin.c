@@ -14,14 +14,16 @@
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
+	char	*arr;
 	char	*new;
+	char	*newstr;
 
 	if (!s1 || !s2)
 		return (NULL);
-	new = ft_strnew(ft_strlen(s1) + ft_strlen(s2));
-	if (new == NULL)
+	arr = ft_strnew(ft_strlen(s1) + ft_strlen(s2));
+	if (arr == NULL)
 		return (NULL);
-	new = ft_strcpy(new, s1);
-	new = ft_strcat(new, s2);
-	return (new);
+	new = ft_strcpy(arr, s1);
+	newstr = ft_strcat(new, s2);
+	return (newstr);
 }

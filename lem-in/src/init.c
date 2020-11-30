@@ -1,5 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   init.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kplums <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/11/30 21:09:59 by kplums            #+#    #+#             */
+/*   Updated: 2020/11/30 21:10:00 by kplums           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "lem-in.h"
+#include "lem_in.h"
 
 void	init_lemin(t_lem *lemin, int *is_soe, int *i)
 {
@@ -49,7 +60,7 @@ void	init_path(t_lem lemin, t_path **ret, t_cont **path, int i)
 	(*ret)->next = NULL;
 	(*path)->prev = NULL;
 	(*ret)->path = (*path);
-	(*ret)->first = (*path);
+	(*ret)->head = (*path);
 }
 
 void	init_node_links(t_cont **path, int k)

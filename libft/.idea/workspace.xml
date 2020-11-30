@@ -36,28 +36,35 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b74a07f-ddd6-4072-8e91-ede0ce1bd232" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/School-21.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/School-21.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="0b74a07f-ddd6-4072-8e91-ede0ce1bd232" name="Default Changelist" comment="libft - add ft_malloc.c&#10;lem-in in progress">
+      <change beforePath="$PROJECT_DIR$/../lem-in/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/flow-one" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/maps/flow-one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/generator" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/generator" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/includes/lem-in.h" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/includes/lem-in.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/lem-in" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/lem-in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lem-in/simple" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/maps/simple" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/author" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/author" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/includes/lem-in.h" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/includes/lem_in.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/lem-in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/maps/flow-one" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/my_maps/flow-one" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/maps/simple" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/my_maps/simple" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/add_level.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/add_level.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/ant_and_comment.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/ant_and_comment.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/check_in.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/check_in.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/check_out.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/check_out.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/count_in_out.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/count_in_out.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/free.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/free.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/init.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/init.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/lemin.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/lemin.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/links.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/links.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/move.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/move.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/output.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/output.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lem-in/src/parser.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/parser.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lem-in/src/path.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lem-in/src/path.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/get_next_line.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/get_next_line.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/libft.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gnl/get_next_line.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/gnl/get_next_line.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gnl/get_next_line_bd.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/gnl/get_next_line_bd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memory/ft_malloc.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/memory/ft_malloc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gnl/get_next_line_bd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output/ft_error.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/output/ft_error.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/ft_strjoin.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/ft_strjoin.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xtoy/ft_itoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/xtoy/ft_itoa.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +74,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -92,12 +98,6 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/gnl" />
-      <recent name="$PROJECT_DIR$/src/ft_printf" />
-      <recent name="$PROJECT_DIR$/includes" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/char" />
       <recent name="$PROJECT_DIR$/src/string" />
@@ -105,11 +105,17 @@
       <recent name="$PROJECT_DIR$/src/arr" />
       <recent name="$PROJECT_DIR$/src/memory" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/gnl" />
+      <recent name="$PROJECT_DIR$/src/ft_printf" />
+      <recent name="$PROJECT_DIR$/includes" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="libft" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libft" TARGET_NAME="libft" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libft" RUN_TARGET_NAME="libft">
@@ -145,8 +151,19 @@
       <workItem from="1606574887335" duration="1452000" />
       <workItem from="1606577494076" duration="2018000" />
       <workItem from="1606652619955" duration="10330000" />
-      <workItem from="1606671197596" duration="1053000" />
+      <workItem from="1606671197596" duration="1295000" />
+      <workItem from="1606733740044" duration="9158000" />
+      <workItem from="1606746814051" duration="198000" />
+      <workItem from="1606756484513" duration="3436000" />
     </task>
+    <task id="LOCAL-00001" summary="libft - add ft_malloc.c&#10;lem-in in progress">
+      <created>1606672505264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606672505264</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,15 +193,19 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="libft - add ft_malloc.c&#10;lem-in in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="libft - add ft_malloc.c&#10;lem-in in progress" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1254" y="327" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605460734437">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1254" y="327" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1605460734437" />
-    <state x="779" y="655" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606495572768">
+    <state x="779" y="655" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606737035452">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="779" y="655" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1606495572768" />
+    <state x="779" y="655" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1606737035452" />
     <state width="922" height="424" key="GridCell.Tab.0.bottom" timestamp="1606670949280">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -217,6 +238,14 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="922" height="424" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1606670949281" />
+    <state x="706" y="376" key="RollbackChangesDialog" timestamp="1606739337670">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="706" y="376" key="RollbackChangesDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1606739337670" />
+    <state x="453" y="362" key="Vcs.Push.Dialog.v2" timestamp="1606672507767">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="453" y="362" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1606672507767" />
     <state x="1479" y="544" key="refactoring.ChangeSignatureDialog" timestamp="1606570100934">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>

@@ -1,5 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   lemin.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kplums <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/11/30 21:10:12 by kplums            #+#    #+#             */
+/*   Updated: 2020/11/30 21:10:13 by kplums           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "lem-in.h"
+#include "lem_in.h"
 
 void	add_level_room(t_lem *lemin)
 {
@@ -39,13 +50,13 @@ int		main(void)
 	check_out(&lemin);
 	while (i < lemin.room_count)
 	{
-		delete_dead_end(&lemin, i);
+		delete_tupik(&lemin, i);
 		i++;
 	}
 	if (lemin.rooms[lemin.start].out == 0)
 	{
 		free_all(lemin);
-		lemin_error(NULL, 0);
+		lemin_error(NULL, WRONG_MAP);
 	}
 	lemin.paths = get_paths(lemin);
 	move_ants(lemin);

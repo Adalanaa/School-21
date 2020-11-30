@@ -1,5 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   path.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kplums <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/11/30 21:11:19 by kplums            #+#    #+#             */
+/*   Updated: 2020/11/30 21:11:21 by kplums           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "lem-in.h"
+#include "lem_in.h"
 
 t_path	*create_path(int i, t_lem lemin)
 {
@@ -28,7 +39,7 @@ t_path	*create_path(int i, t_lem lemin)
 	return (ret);
 }
 
-void	find_pos(t_path *ret, t_path *cur)
+void	find_position(t_path *ret, t_path *cur)
 {
 	t_path *buf;
 	t_path *tmp;
@@ -69,24 +80,24 @@ void	first_three_paths(t_path **last, t_path **ret, t_path *cur)
 t_path	*get_paths(t_lem lemin)
 {
 	t_path	*last;
-	t_path	*ret;
-	t_path	*cur;
+	t_path	*head;
+	t_path	*tmp;
 	int		i;
 
-	ret = NULL;
+	head = NULL;
 	i = 0;
 	while (i < lemin.room_count)
 	{
 		if (lemin.links[lemin.start][i] == 1)
 		{
-			cur = create_path(i, lemin);
-			if (ret == NULL || cur->size <= ret->size ||
-				cur->size >= last->size)
-				first_three_paths(&last, &ret, cur);
+			tmp = create_path(i, lemin);
+			if (head == NULL || tmp->size <= head->size ||
+				tmp->size >= last->size)
+				first_three_paths(&last, &head, tmp);
 			else
-				find_pos(ret, cur);
+				find_position(head, tmp);
 		}
 		i++;
 	}
-	return (ret);
+	return (head);
 }

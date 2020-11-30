@@ -1,9 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ant_and_comment.c                                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kplums <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/11/30 21:08:34 by kplums            #+#    #+#             */
+/*   Updated: 2020/11/30 21:08:35 by kplums           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "lem-in.h"
+#include "lem_in.h"
 
 void	ants_max_min_bounds(long long num, t_lem *ret, char *line)
 {
-	if (num <= 0 || num > 0x7fffffff)
+	if (num <= 0 || num > MAX_INT)
 	{
 		free(ret->rooms);
 		lemin_error(line, LINE_ANT_COUNT);
@@ -15,7 +26,7 @@ void	ant_count(char *line, t_lem *ret)
 	int			i;
 	long long	num;
 
-	while (get_next_line_bd(0, &line))
+	while (get_next_line_gy(0, &line))
 	{
 		ft_putendl(line);
 		if (line[0] == '#')
@@ -29,7 +40,7 @@ void	ant_count(char *line, t_lem *ret)
 		while (line[++i])
 			if (line[i] < '0' || line[i] > '9')
 				lemin_error(line, LINE_ANT_COUNT);
-		num = ft_atoi(line);
+		num = ft_atoi_longlong(line);
 		ants_max_min_bounds(num, ret, line);
 		ret->ants_count = num;
 		free(line);

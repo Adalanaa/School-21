@@ -1,5 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   move.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kplums <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/11/30 21:10:38 by kplums            #+#    #+#             */
+/*   Updated: 2020/11/30 21:10:40 by kplums           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "lem-in.h"
+#include "lem_in.h"
 
 void	run_ant(t_lem lemin, int *ant, int *finished)
 {
@@ -7,16 +18,16 @@ void	run_ant(t_lem lemin, int *ant, int *finished)
 	{
 		while (lemin.paths != NULL)
 		{
-			if ((lemin.paths->first->ant == 0 &&
+			if ((lemin.paths->head->ant == 0 &&
 				lemin.paths->ratio < lemin.ants_count - (*ant) + 1)
-				|| lemin.paths->first == lemin.paths->last)
+				|| lemin.paths->head == lemin.paths->last)
 			{
 				print_ant_step(ft_itoa(*ant), \
-					lemin.rooms[lemin.paths->first->id].name);
-				if (lemin.paths->first == lemin.paths->last)
+					lemin.rooms[lemin.paths->head->id].name);
+				if (lemin.paths->head == lemin.paths->last)
 					if (++(*finished) >= lemin.ants_count)
 						return ;
-				lemin.paths->first->ant = *ant;
+				lemin.paths->head->ant = *ant;
 				if (++(*ant) > lemin.ants_count)
 					break ;
 			}
@@ -50,17 +61,16 @@ void	move_ant(t_lem *lemin, t_cont *curr, t_path *c_path)
 void	move_possible(t_lem *lemin)
 {
 	t_path *c_path;
-	t_cont *curr;
+	t_cont *current;
 
 	c_path = lemin->paths;
-	curr = c_path->last;
 	while (c_path != NULL)
 	{
-		curr = c_path->last->prev;
-		while (curr != NULL)
+		current = c_path->last->prev;
+		while (current != NULL)
 		{
-			move_ant(lemin, curr, c_path);
-			curr = curr->prev;
+			move_ant(lemin, current, c_path);
+			current = current->prev;
 		}
 		c_path = c_path->next;
 	}

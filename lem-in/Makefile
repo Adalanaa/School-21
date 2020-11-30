@@ -28,7 +28,7 @@ FILES		=	add_level.c \
 
 #			HEADERS			#
 SRC_INC_DIR = ./includes/
-INCLUDES = lem-in.h
+INCLUDES = lem_in.h
 HEADERS = $(addprefix $(SRC_INC_DIR), $(INCLUDES))
 DEPS = $(HEADERS) Makefile $(LIBFT)
 
@@ -38,7 +38,7 @@ LIB_INC_DIR = ../libft/includes/
 LIBFT = $(LIB_DIR)/libft.a
 
 # 			COMPILING		#
-CFLGS = -Wall -Werror -Wextra
+CFLGS = -Wall -Werror -Wextra -g
 LFLGS = -L $(LIB_DIR) -lft
 CC = gcc
 INCL = -I $(SRC_INC_DIR)

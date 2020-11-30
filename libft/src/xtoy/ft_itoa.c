@@ -55,13 +55,13 @@ char			*ft_itoa(int n)
 {
 	int		i;
 	int		flag;
-	char	*str;
+	char	str[11];
+	char	*strnew;
 
-	i = 0;\
+	i = 0;
+	ft_bzero(&str, 11);
 	if (n == -2147483648)
 		return (ft_minint(n));
-	if (!(str = ft_strnew(11)))
-		return (NULL);
 	if ((flag = n) < 0)
 		n = -n;
 	while (n - 10 >= 0)
@@ -71,8 +71,8 @@ char			*ft_itoa(int n)
 	}
 	str[i] = n % 10 + '0';
 	if (flag < 0)
-		str[++i] = '-';
-	if (!(str = ft_strdupreverse(str)))
+		str[i + 1] = '-';
+	if (!(strnew = ft_strdupreverse((const char *)&str)))
 		return (NULL);
-	return (str);
+	return (strnew);
 }

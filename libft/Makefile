@@ -25,7 +25,7 @@ CHAR_FILES		=	ft_isalnum.c \
 					ft_toupper.c
 
 GNL_FILES		=	get_next_line.c \
-					get_next_line_bd.c
+					get_next_line_gy.c
 
 INT_FILES		=	ft_int_abs.c \
 					ft_int_abs_min.c \
@@ -121,7 +121,7 @@ HEADERS = $(addprefix $(INCL_DIR), $(INCLUDES))
 DEPS = $(HEADERS) Makefile
 
 # 			COMPILING		#
-CFLGS = -Wall -Werror -Wextra
+CFLGS = -Wall -Werror -Wextra -g
 CC = gcc
 IFLAGS = -I $(INCL_DIR)
 

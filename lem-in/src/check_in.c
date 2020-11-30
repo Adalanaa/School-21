@@ -1,45 +1,56 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   check_in.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kplums <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/11/30 21:09:17 by kplums            #+#    #+#             */
+/*   Updated: 2020/11/30 21:09:19 by kplums           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "lem-in.h"
+#include "lem_in.h"
 
-void	edit_links(t_lem *lemin, int pos, int room)
+void	edit_links(t_lem *lemin, int i, int room)
 {
-	int i;
+	int j;
 
-	i = 0;
-	while (i != lemin->room_count)
+	j = 0;
+	while (j != lemin->room_count)
 	{
-		if (lemin->links[pos][i] == 1 && i != room &&
-			lemin->rooms[pos].level > lemin->rooms[i].level && i != lemin->end)
+		if (lemin->links[i][j] == 1 && j != room &&
+			lemin->rooms[i].level > lemin->rooms[j].level && j != lemin->end)
 		{
-			lemin->links[pos][i] = 0;
-			lemin->links[i][pos] = 0;
-			lemin->rooms[i].out--;
-			lemin->rooms[pos].in--;
+			lemin->links[i][j] = 0;
+			lemin->links[j][i] = 0;
+			lemin->rooms[j].out--;
+			lemin->rooms[i].in--;
 		}
-		i++;
+		j++;
 	}
 }
 
-void	delete_in(t_lem *lemin, int pos)
+void	delete_in(t_lem *lemin, int i)
 {
 	int max;
 	int room;
-	int i;
+	int j;
 
-	i = 0;
+	j = 0;
 	max = 2147483647;
-	while (i != lemin->room_count)
+	while (j != lemin->room_count)
 	{
-		if (lemin->links[pos][i] == 1 &&
-			lemin->rooms[pos].level > lemin->rooms[i].level &&
-			max > lemin->rooms[i].out && i != lemin->end)
+		if (lemin->links[i][j] == 1 &&
+			lemin->rooms[i].level > lemin->rooms[j].level &&
+			max > lemin->rooms[j].out && j != lemin->end)
 		{
-			max = lemin->rooms[i].out;
-			room = i;
+			max = lemin->rooms[j].out;
+			room = j;
 		}
-		i++;
+		j++;
 	}
-	edit_links(lemin, pos, room);
+	edit_links(lemin, i, room);
 }
 
 void	check_in(t_lem *lemin)

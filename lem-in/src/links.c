@@ -1,5 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   links.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kplums <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/11/30 21:10:18 by kplums            #+#    #+#             */
+/*   Updated: 2020/11/30 21:10:19 by kplums           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "lem-in.h"
+#include "lem_in.h"
 
 int		check_links(int *link1, int *link2, t_lem *ret, char **split)
 {
@@ -22,7 +33,6 @@ int		check_links(int *link1, int *link2, t_lem *ret, char **split)
 			count++;
 		}
 	}
-
 	return (count);
 }
 
@@ -94,14 +104,14 @@ t_lem	array_links(t_lem lemin, int is_soe, int answer, char *line)
 	{
 		if (check_comment(line, &lemin, &is_soe))
 		{
-			if (get_next_line_bd(0, &line) <= 0)
+			if (get_next_line_gy(0, &line) <= 0)
 				break ;
 			print_line(line);
 			continue ;
 		}
 		add_links(line, &lemin);
 		free(line);
-		if (get_next_line_bd(0, &line) <= 0)
+		if (get_next_line_gy(0, &line) <= 0)
 			break ;
 		print_line(line);
 	}

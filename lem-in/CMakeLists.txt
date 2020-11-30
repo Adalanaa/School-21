@@ -6,7 +6,7 @@ set(CMAKE_C_FLAGS "-Wall -Werror -Wextra")
 
 set(LIBRARY_PATH /Users/kplums/CLionProjects/School-21/libft/libft.a)
 
-add_executable(lem-in includes/lem-in.h
+add_executable(lem-in includes/lem_in.h
                         src/add_level.c
                         src/ant_and_comment.c
                         src/check_in.c

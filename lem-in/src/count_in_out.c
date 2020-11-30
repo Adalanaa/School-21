@@ -1,7 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   count_in_out.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kplums <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/11/30 21:09:41 by kplums            #+#    #+#             */
+/*   Updated: 2020/11/30 21:09:42 by kplums           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "lem-in.h"
+#include "lem_in.h"
 
-void	delete_dead_end(t_lem *lemin, int i)
+void	delete_tupik(t_lem *lemin, int i)
 {
 	int j;
 
@@ -18,7 +29,7 @@ void	delete_dead_end(t_lem *lemin, int i)
 				lemin->links[j][i] = 0;
 				lemin->rooms[j].out--;
 				lemin->rooms[i].in--;
-				delete_dead_end(lemin, j);
+				delete_tupik(lemin, j);
 			}
 			j++;
 		}
@@ -64,7 +75,7 @@ void	dfs_in_out(t_lem *lemin)
 	}
 	i = -1;
 	while (++i < lemin->room_count)
-		delete_dead_end(lemin, i);
+		delete_tupik(lemin, i);
 }
 
 void	count_in_out(t_lem *lemin)

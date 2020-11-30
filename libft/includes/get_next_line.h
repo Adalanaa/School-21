@@ -12,7 +12,7 @@
 
 #ifndef FT_GET_NEXT_LINE_H
 # define FT_GET_NEXT_LINE_H
-# define BUFF_SIZE 2
+# define BUFF_SIZE 4096
 
 # include "libft.h"
 # include <fcntl.h>
@@ -26,5 +26,6 @@ typedef struct				s_gnl
 
 int							get_next_line(const int fd, char **line);
 int							get_next_line_bd(const int fd, char **line);
+int							get_next_line_gy(const int fd, char **line);
 
 #endif

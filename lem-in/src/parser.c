@@ -1,5 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   parser.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kplums <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/11/30 21:11:13 by kplums            #+#    #+#             */
+/*   Updated: 2020/11/30 21:11:14 by kplums           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include "lem-in.h"
+#include "lem_in.h"
 
 void	increase_array(t_lem *ret)
 {
@@ -72,7 +83,7 @@ t_lem	lemin_parser(void)
 	line = NULL;
 	init_lemin(&lemin, &is_soe, &i);
 	ant_count(line, &lemin);
-	while ((answer = get_next_line_bd(0, &line)))
+	while ((answer = get_next_line_gy(0, &line)))
 	{
 		print_line(line);
 		if (check_comment(line, &lemin, &is_soe))
@@ -87,6 +98,5 @@ t_lem	lemin_parser(void)
 		is_soe = -1;
 		free(line);
 	}
-
 	return (array_links(lemin, is_soe, answer, line));
 }
